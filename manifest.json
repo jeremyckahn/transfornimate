@@ -1,0 +1,11 @@
+{
+  "name": "Transfornimate",
+  "description": "Animates elements on a page",
+  "version": "0.0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["src/init.js"]
+  },
+  "manifest_version": 2
+}
