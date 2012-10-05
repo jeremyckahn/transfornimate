@@ -7,5 +7,9 @@
     "persistent": false,
     "scripts": ["src/init.js"]
   },
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["src/content.js"]
+  }],
   "manifest_version": 2
 }
